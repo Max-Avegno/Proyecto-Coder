@@ -1,0 +1,43 @@
+#boxpagesN {
+  background-color: #57a3dd;
+  height: 30%;
+  text-align: center;
+  background-image: url("./../pages/imagespages/Nintendo.svg.png");
+  background-size: contain;
+  background-position: center;
+  font-family: "fuente principal";
+  color: aliceblue;
+}
+
+#boxpagesP {
+  background-color: #57a3dd;
+  height: 30%;
+  text-align: center;
+  background-image: url("./../pages/imagespages/Playstation_logo_colour.svg.png");
+  background-size: contain;
+  background-position: center;
+  font-family: "fuente principal";
+  color: aliceblue;
+}
+
+#boxpagesS {
+  background-color: #57a3dd;
+  height: 30%;
+  text-align: center;
+  background-image: url("./../pages/imagespages/SEGA_logo.svg.png");
+  background-size: contain;
+  background-position: center;
+  font-family: "fuente principal";
+  color: aliceblue;
+}
+
+#boxpagesX {
+  background-color: #57a3dd;
+  height: 30%;
+  text-align: center;
+  background-image: url("./../pages/imagespages/xboxicon.png");
+  background-size: contain;
+  background-position: center;
+  font-family: "fuente principal";
+  color: aliceblue;
+}
