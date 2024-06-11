@@ -1,48 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RetroGaming</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Playstation</title>
-  <link rel="stylesheet" href="./../styles/styles.css" />
-</head>
+    <link rel="stylesheet" href="../styles/bootstrap.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
 
-<body class="container">
-  <header class="content">Banner</header>
-  <div id="searchbar" class="content">
-    <form id="formbox" action="" method="get">
-      <input class="inputbox" type="text" placeholder="buscar" />
-      <button>
-        <img src="./assets/icons/Search-Button-PNG-HD-Quality.png" alt="" width="10px" />
-      </button>
-    </form>
-  </div>
-  <div id="secondarybanner" class="content"><h3>Somos Retro Gaming Store, una tienda dedicada a la compra y venta de
-    consolas y videojuegos, tanto de actual generacion como tambien esas consolas anteriores que nos dieron innumerables
-    horas de diversion.</h3></div>
-  <nav class="content">
-    <ul class="navMenu">
-      <li><a href="./assets/pages/nintendo.html">Nintendo</a></li>
-      <li><a href="./assets/pages/playstation.html">Playstation</a></li>
-      <li><a href="./assets/pages/sega.html">Sega</a></li>
-      <li><a href="./assets/pages/xbox.html">Xbox</a></li>
-      <li><a href="./../../index.html">Inicio</a></li>
-    </ul>
-  </nav>
-  <main class="content">Contenido principal</main>
+  <body class="container1">
+    <header class="content">Banner</header>
+    <div id="searchbar" class="content">
+      <form id="formbox" action="" method="get">
+        <input class="inputbox" type="text" placeholder="buscar" />
+        <button class="buttonSearch">
+          <img src="../icons/icons8-búsqueda.svg" alt="" width="10px" />
+        </button>
 
-  <footer class="content footerIcons">
+        <button class="buttonSearch">
+          <img src="../icons/carrito-de-compras (1).png" alt="" />
+        </button>
+      </form>
+    </div>
+    <div id="secondarybanner" class="content">
+      <h1 class="tituloPaginas">Playstation</h1>
+    </div>
+    <nav class="content">
+      <ul class="navMenu">
+        <li class="liNintendo">
+          <a href="./nintendo.html">Nintendo</a>
+        </li>
+        <li class="liPlaystation">
+          <a href="./playstation.html">Playstation</a>
+        </li>
+        <li class="liSega"><a href="./sega.html">Sega</a></li>
+        <li class="liXbox"><a href="./xbox.html">Xbox</a></li>
+        <li class="liIndex"><a href="../../index.html">Inicio</a></li>
+      </ul>
+    </nav>
+    <main class="content">
+      <h2 id="tituloIndex">
+        <img src="../icons/icons8-play-station-48.png" alt="" /> Playstation
+        <img src="../icons/icons8-play-station-48.png" alt="" />
+      </h2>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <div class="card" style="width: 12rem; height: auto">
+              <img
+                src="../images/ps5-slim-model-hero-new.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Playstation 5</h5>
+                <p class="card-text text-center">descripcion del producto</p>
+                <a href="#" class="btn btn-primary">Ir al producto</a>
+              </div>
+            </div>
+          </div>
 
-    <a class="icons" href="https://www.instagram.com/" target="_blank"> <img src="./assets/icons/igicon.jpg"
-        alt="igicono" width="30px"></a>
-    <a class="icons" href="https://www.facebook.com/?locale=es_LA" target="_blank"> <img
-        src="./assets/icons/facebookicono.png" alt="fbicon" width="30px"></a>
-    <a class="icons" href="https://web.whatsapp.com/" target="_blank"> <img src="./assets/icons/wpicon.jpg" alt="wpicon"
-        width="30px"></a>
+          <div class="col-3">
+            <div class="card" style="width: 12rem">
+              <img
+                src="../images/joystickps5.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dualsense Ps5</h5>
+                <p class="card-text">descripcion del producto</p>
+                <a href="#" class="btn btn-primary">ir al producto</a>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-3">
+            <div class="card" style="width: 12rem">
+              <img
+                src="../images/dragon-ball-sparking-zero-ps5.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sparking Zero</h5>
+                <p class="card-text">descripcion del producto</p>
+                <a href="#" class="btn btn-primary">ir al producto</a>
+              </div>
+            </div>
+          </div>
 
-  </footer>
-</body>
+          <div class="col-3">
+            <div class="card" style="width: 12rem">
+              <img
+                src="../images/playstation4.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Playstation 4</h5>
+                <p class="card-text">descripcion del producto</p>
+                <a href="#" class="btn btn-primary">ir al producto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
+    <footer class="content footerIcons">
+      <a class="icons" href="https://www.instagram.com/" target="_blank">
+        <img src="../icons/instagram.svg" alt="igicono" width="30px"
+      /></a>
+      <a
+        class="icons"
+        href="https://www.facebook.com/?locale=es_LA"
+        target="_blank"
+      >
+        <img src="../icons/facebook.svg" alt="fbicon" width="30px"
+      /></a>
+      <a class="icons" href="https://web.whatsapp.com/" target="_blank">
+        <img src="../icons/whatsapp.svg" alt="wpicon" width="30px"
+      /></a>
+    </footer>
+  </body>
 </html>

@@ -287,14 +287,14 @@ address {
 
 ol,
 ul {
-  padding-left: 0rem;
+  padding-left: 2rem;
 }
 
 ol,
 ul,
 dl {
   margin-top: 0;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
 }
 
 ol ol,
