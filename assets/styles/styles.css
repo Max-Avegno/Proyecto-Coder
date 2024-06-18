@@ -73,6 +73,13 @@ a {
 
 .buttonSearch {
   width: 5%;
+  border-radius: 4px;
+  background-color: cornsilk;
+}
+
+#lupa {
+  height: 2rem;
+  width: 2rem;
 }
 
 #carrito {
@@ -247,4 +254,15 @@ footer {
     flex-direction: column;
     flex-wrap: nowrap;
   }
+  .inputbox {
+    width: 85%;
+    border-radius: 8px;
+}
+.buttonSearch {
+  width: 10%;
+
+}
+
+
+
 }
