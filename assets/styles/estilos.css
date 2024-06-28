@@ -28,6 +28,13 @@
     grid-template-areas: "banner" "searchbar" "bannerSecundario" "nav" "contenidoPrincipal" "footer";
   }
 }
+@media (max-width: 768px) {
+  .container1 {
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 5% auto auto auto auto;
+    grid-template-areas: "banner" "searchbar" "bannerSecundario" "nav" "contenidoPrincipal" "footer";
+  }
+}
 
 .content {
   border-radius: 8px;
@@ -112,6 +119,11 @@ a {
     padding: 0%;
   }
 }
+@media (max-width: 768px) {
+  #secondarybanner {
+    padding-bottom: 0%;
+  }
+}
 
 nav {
   grid-area: nav;
@@ -128,6 +140,17 @@ nav .navMenu {
   list-style-type: none;
   flex: auto;
 }
+@media (max-width: 600px) {
+  nav .navMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    list-style-type: auto;
+    flex: auto;
+    background-color: #3173bb;
+  }
+}
 nav .navMenu li {
   height: 15%;
   font-size: 20px;
@@ -137,14 +160,63 @@ nav .navMenu li {
   margin-bottom: 4px;
   background-color: #3173bb;
 }
-nav .navMenu li:hover {
-  background-color: red; /* Cambiar al color deseado */
+@media (max-width: 600px) {
+  nav .navMenu li {
+    margin-bottom: 0%;
+    list-style: none;
+    width: inherit;
+    display: table;
+  }
+}
+@media (max-width: 768px) {
+  nav .navMenu li {
+    margin-bottom: 0%;
+    list-style: none;
+    width: inherit;
+    display: table;
+  }
+}
+nav .navMenu li .liNintendo:hover {
+  background-color: red;
+}
+nav .navMenu li .liPlaystation:hover {
+  background-color: #081456;
+}
+nav .navMenu li .liSega:hover {
+  background-color: #151bb6;
+}
+nav .navMenu li .liXbox:hover {
+  background-color: #137b13;
 }
 
 main {
   background-color: #06185e;
   grid-area: contenidoPrincipal;
   padding-bottom: 25px;
+}
+@media (max-width: 768px) {
+  main .container-fluid {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  main .container-fluid .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0px;
+  }
+  main .container-fluid .row .col-3 {
+    flex: 0 0 auto;
+    width: auto;
+    padding-bottom: 20px;
+  }
 }
 
 #tituloIndex {
@@ -165,6 +237,13 @@ footer .footerIcons {
   justify-content: space-evenly;
   padding-bottom: 0px;
 }
+@media (max-width: 600px) {
+  footer .footerIcons {
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 0px;
+  }
+}
 
 .footerIcons {
   align-items: center;
@@ -175,20 +254,4 @@ footer .footerIcons {
 ol,
 ul {
   padding-left: 0rem;
-}
-
-.liNintendo:hover {
-  background-color: red;
-}
-
-.liPlaystation:hover {
-  background-color: #081456;
-}
-
-.liSega:hover {
-  background-color: #151bb6;
-}
-
-.liXbox:hover {
-  background-color: #137b13;
 }/*# sourceMappingURL=estilos.css.map */
